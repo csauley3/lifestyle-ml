@@ -24,14 +24,15 @@ pip install pandas scikit-learn matplotlib seaborn
 
 ## How to Run
 Use ```python``` or ```python3``` (depending on your system)
-1. **Clean the dataset**  
+1. Since the files are too large for GitHub, you will need to download them on Kaggle: [Dataset](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease)
+2.  **Clean the dataset**  
    Make sure `heart_2022_with_nans.csv` is in the same folder, then run:
    
    ```bash
    python cleaning.py
    ```
    
-2. **Train and evaluate the models:**  
+3. **Train and evaluate the models:**  
    Make sure `heart_2022_no_nans.csv` is in the same folder, then run:
    ```bash
    python models.py
